@@ -1,0 +1,4 @@
+https://github.com/centraldedados/nomes_proprios/tree/master/data
+https://github.com/outsidesource/FakeNamesDatabase
+
+http://nomes-de-bebe.info/nomes-femininos.html
