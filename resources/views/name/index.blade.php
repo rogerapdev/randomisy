@@ -21,7 +21,7 @@
 				                            <select name="type" class="form-control">
                                         <option value="">--</option>
                                         <option value="male">Male</option>
-                                        <option value="femaleall">Female</option>
+                                        <option value="female">Female</option>
                                     </select>
 				                        </div>
 			                		</div>
@@ -87,7 +87,7 @@
 
 $('#btnConfirm').click(function() {
    $.ajax({
-      url: 'http://rogerio.local/projeto/randomisy/public/api/names/generator',
+      url: 'http://localhost/randomisy/public/api/names/generator',
       data: {
          numbers: $('input[name="numbers"]').val(),
          type: $('select[name="type"]').val()

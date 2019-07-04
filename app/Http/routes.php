@@ -20,7 +20,7 @@ $app->get('/', function () use ($app) {
     return view('home');
 });
 
-//http://rogerio.local/projeto/randomisy/public/lottery/generator?tickets=5&numbers=15&maximum=25
+//http://localhost/randomisy/public/lottery/generator?tickets=5&numbers=15&maximum=25
 $app->get('lotteries', 'LotteryController@index');
 $app->get('names', 'NameController@index');
 

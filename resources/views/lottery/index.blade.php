@@ -91,7 +91,7 @@
 
 $('#btnConfirm').click(function() {
    $.ajax({
-      url: 'http://rogerio.local/projeto/randomisy/public/api/lotteries/generator',
+      url: 'http://localhost/randomisy/public/api/lotteries/generator',
       data: {
          tickets: $('input[name="tickets"]').val(),
          numbers: $('input[name="numbers"]').val(),
